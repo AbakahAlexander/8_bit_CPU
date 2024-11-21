@@ -1,0 +1,8 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multicore_microprocessor_tb_behav xil_defaultlib.multicore_microprocessor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-8350] formal port 'address' of mode 'inout' cannot be associated with actual port 'address' of mode 'in' [C:/Users/abaka/cpu/cpu.srcs/sim_1/new/Test_bench.vhd:15]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit multicore_microprocessor_tb in library work failed.
